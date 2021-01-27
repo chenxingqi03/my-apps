@@ -1,0 +1,31 @@
+/*
+ * @Author: heinan 
+ * @Date: 2019-12-06 13:41:35 
+ * @Last Modified by:   heinan 
+ * @Last Modified time: 2019-12-06 13:41:35 
+ */
+body {
+	font-size: 12px;
+}
+
+.wraper {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.content {
+	flex: 1;
+	position: relative;
+}
+
+.foor{
+	width: 100%;
+	height: 50px;
+	border-top: 1px solid #000;
+}
